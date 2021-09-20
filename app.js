@@ -22,4 +22,6 @@ function f() {
 
 function changecolor(id){
     document.body.style.background = document.getElementById(id).innerHTML;
+    const a = document.querySelector('#section h1');
+    a.style.visibility = 'visible';
 }
